@@ -1,4 +1,14 @@
-# 🏨 Hotel Analytics Dashboard
+# PROJECT 1 - Hotel Analytics Dashboard🏨 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?logo=snowflake&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
+</p>
+
+---
 
 ## 📖 Project Overview
 This project transforms raw and inconsistent hotel booking data into an interactive **Streamlit dashboard** hosted directly within **Snowflake**.  
@@ -10,8 +20,6 @@ By building a structured cloud-based data pipeline, the dashboard provides stake
 - Guest trends
 - Geographic analytics
 
----
-
 ## ⚙️ Technical Architecture
 
 The project follows a modern **Medallion Architecture** workflow:
@@ -22,10 +30,8 @@ The project follows a modern **Medallion Architecture** workflow:
 4. **Visualization Layer** → Interactive Streamlit dashboard using Python  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/ARCHITECTURE%20DIAGRAM.jpeg" width="900"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/ARCHITECTURE%20DIAGRAM.jpeg" width="900"/>
 </p>
-
----
 
 ## ⚡ Live Dashboard Features
 
@@ -35,15 +41,11 @@ The project follows a modern **Medallion Architecture** workflow:
 ✔️ Snowflake-hosted Streamlit application  
 ✔️ Business-ready visual analytics  
 
----
-
 ## 📊 Dashboard Overview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/FULL%20DASHBOARD.png" width="950"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/FULL%20DASHBOARD.png" width="950"/>
 </p>
-
----
 
 ## 📈 Executive KPIs
 
@@ -54,57 +56,43 @@ The project follows a modern **Medallion Architecture** workflow:
 | Total Guests | 5,072 |
 | Average Booking Value | 334.11 |
 
----
-
 ## 🔗 Live Application
 
 👉 [Hotel Analytics Live Dashboard](https://app.snowflake.com/streamlit/sweden-central.azure/xf09284/#/apps/3ux4b4y5obk6caso6633)
-
----
 
 ## 🔍 Revenue & Booking Trends
 
 ### Monthly Revenue Trend
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/MONTHLY%20REVENUE%20TREND.png" width="850"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/MONTHLY%20REVENUE%20TREND.png" width="850"/>
 </p>
-
----
 
 ### Monthly Bookings Trend
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/MONTHLY%20BOOKINGS%20TREND.png" width="850"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/MONTHLY%20BOOKINGS%20TREND.png" width="850"/>
 </p>
-
----
 
 ## 🌍 City Performance Analysis
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/CITY%20PERFORMANCE%20BAR%20CHART.png" width="850"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/CITY%20PERFORMANCE%20BAR%20CHART.png" width="850"/>
 </p>
-
----
 
 ## 🛏️ Booking Breakdown Analysis
 
 ### Room Type Distribution
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/BOOKING%20BREAKDOWN%20BY%20ROOM%20TYPE.png" width="850"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/BOOKING%20BREAKDOWN%20BY%20ROOM%20TYPE.png" width="850"/>
 </p>
-
----
 
 ### Booking Status Distribution
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wisemansg/hotel_booking_analytics/main/assets/BOOKING%20BREAKDOWN%20BY%20STATUS.png" width="850"/>
+  <img src="https://raw.githubusercontent.com/wisemansg/snowflake/main/hotel_analytics_dashboard/assets/BOOKING%20BREAKDOWN%20BY%20STATUS.png" width="850"/>
 </p>
-
----
 
 ## 🛠️ Technology Stack
 
@@ -118,8 +106,7 @@ The project follows a modern **Medallion Architecture** workflow:
 
 ---
 
-# 🚀 Real-Time Insurance Claims Data Pipeline
-
+# PROJECT 2 - Real-Time Insurance Claims Data Pipeline🚀 
 <p align="center">
   <img src="https://img.shields.io/badge/Snowflake-29B5E8?logo=snowflake&logoColor=white" />
   <img src="https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white" />
@@ -137,15 +124,11 @@ This project demonstrates a modern **real-time insurance claims data pipeline** 
 
 The pipeline simulates live insurance claims data using Python, stores records in MongoDB, ingests data into Snowflake using Airbyte, transforms data with DBT, and visualizes insights in Power BI.
 
----
-
 ## 🏗️ Architecture Diagram
 
 <p align="center">
   <img src="https://github.com/wisemansg/hotel_booking_analytics/blob/main/insurance/Project%20Pipeline.jpeg?raw=true" width="900"/>
 </p>
-
----
 
 ## ⚙️ Tech Stack
 
@@ -158,8 +141,6 @@ The pipeline simulates live insurance claims data using Python, stores records i
 | Python | Data simulation |
 | Power BI | Business intelligence |
 
----
-
 ## ✨ Key Features
 
 ✔️ Real-time insurance claims simulation  
@@ -168,8 +149,6 @@ The pipeline simulates live insurance claims data using Python, stores records i
 ✔️ DBT transformation models  
 ✔️ Fraud analytics and reporting  
 ✔️ Interactive Power BI dashboards  
-
----
 
 ## 📂 Repository Structure
 
@@ -188,8 +167,6 @@ insurance-nosql-pipeline/
 └── README.md
 ```
 
----
-
 ## 🖼️ Project Screenshots
 
 ### MongoDB Collections
@@ -198,23 +175,17 @@ insurance-nosql-pipeline/
   <img src="https://github.com/wisemansg/hotel_booking_analytics/blob/main/insurance/MongoDB.png?raw=true" width="850"/>
 </p>
 
----
-
 ### Snowflake Warehouse
 
 <p align="center">
   <img src="https://github.com/wisemansg/hotel_booking_analytics/blob/main/insurance/Snowflake.png?raw=true" width="850"/>
 </p>
 
----
-
 ### Airbyte ELT Pipeline
 
 <p align="center">
   <img src="https://github.com/wisemansg/hotel_booking_analytics/blob/main/insurance/Airflow.png?raw=true" width="850"/>
 </p>
-
----
 
 ## 🚀 Getting Started
 
@@ -225,17 +196,11 @@ git clone https://github.com/your-username/insurance-nosql-pipeline.git
 
 cd insurance-nosql-pipeline
 ```
-
----
-
 ### 2️⃣ Install Dependencies
 
 ```bash
 pip install faker pymongo
 ```
-
----
-
 ### 3️⃣ Configure MongoDB Atlas
 
 Create:
@@ -245,16 +210,11 @@ Create:
 - `customers` collection
 - `claims` collection
 
----
-
 ### 4️⃣ Run Data Generator
 
 ```bash
 python Simulator.py
 ```
-
----
-
 ## 🐍 Python Data Generator
 
 ```python
@@ -311,9 +271,6 @@ while True:
 
     time.sleep(2)
 ```
-
----
-
 ## 🔄 Airbyte ELT Pipeline
 
 1. Launch Airbyte locally using Docker  
@@ -321,8 +278,6 @@ while True:
 3. Configure Snowflake destination  
 4. Create sync connection  
 5. Schedule automatic ingestion jobs  
-
----
 
 ## ❄️ Snowflake Warehouse
 
@@ -333,9 +288,6 @@ Example raw table:
 ```text
 RAW.CLAIMS
 ```
-
----
-
 ## 🧱 DBT Transformations
 
 ### source.yml
@@ -351,9 +303,6 @@ sources:
     tables:
       - name: CLAIMS
 ```
-
----
-
 ### stg_claims.sql
 
 ```sql
@@ -374,9 +323,6 @@ with raw as (
 select *
 from raw
 ```
-
----
-
 ### claims_summary.sql
 
 ```sql
@@ -397,9 +343,6 @@ from {{ ref('stg_claims') }}
 group by 1,2
 order by 1
 ```
-
----
-
 ## 📊 Power BI Dashboard
 
 Suggested analytics:
@@ -409,8 +352,6 @@ Suggested analytics:
 - Claim type distribution
 - Total claims amount
 - Geographic claim analysis
-
----
 
 ## 📈 End-to-End Pipeline
 
@@ -427,9 +368,6 @@ DBT Transformations
         ↓
 Power BI Dashboard
 ```
-
----
-
 ## ✅ Final Deliverables
 
 ✔️ Real-time insurance pipeline  
@@ -437,8 +375,6 @@ Power BI Dashboard
 ✔️ Automated ELT workflows  
 ✔️ DBT transformation layer  
 ✔️ Interactive Power BI dashboard  
-
----
 
 ## 👨‍💻 Author
 
